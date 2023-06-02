@@ -321,7 +321,18 @@ namespace Gameplay
 
                 Nexus nexus = target.GetComponent<Nexus>();
 
-                nexus.TakeDamage(damage);
+                if (!nexus.nexusDestroyed)
+                {
+                    nexus.TakeDamage(damage);
+                }
+                else
+                {
+                    
+                    isInAttackRange = false;
+                    anim.SetBool("isWalking", false);
+                    agent.isStopped = true;
+                    attackTimer = 0.0f;
+                }
             }
             else
             {

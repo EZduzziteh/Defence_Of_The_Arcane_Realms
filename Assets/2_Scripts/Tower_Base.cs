@@ -33,6 +33,7 @@ namespace Gameplay
 
         public void SellTurret()
         {
+            Debug.Log(currentTurret);
             turretLevel = 0;
             Destroy(currentTurret.gameObject);
         }

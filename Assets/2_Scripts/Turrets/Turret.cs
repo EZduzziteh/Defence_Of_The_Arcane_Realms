@@ -121,7 +121,7 @@ namespace Gameplay
             if (isUpgradeable)
             {
                 Turret temp = GameObject.Instantiate(upgradeTurret, transform.position, transform.rotation);
-                towerBase.SetNewTurret(this);
+                towerBase.SetNewTurret(temp);
 
                 return true;
             }

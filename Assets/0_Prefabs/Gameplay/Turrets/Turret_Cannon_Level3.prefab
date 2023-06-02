@@ -53,8 +53,8 @@ MonoBehaviour:
   baseTimeBetweenShots: 2
   fireRate: 2.5
   facesTarget: 1
-  range: 10
-  Price: 300
+  range: 9
+  Price: 225
   projectile: {fileID: 4486739127135262900, guid: 1835da90f0882474d86cb1e398ceb52c, type: 3}
   buildSound: {fileID: 8300000, guid: 9e831dc1b80674e1a8914ed75f13a089, type: 3}
   fireSoundEffect: {fileID: 8300000, guid: 3681e8a09c5ad524b916928658f016a3, type: 3}
@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 5162559685808989436}
   - component: {fileID: 2489293339689274156}
   - component: {fileID: 6516174275508220762}
-  m_Layer: 2
+  m_Layer: 7
   m_Name: RangeIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}

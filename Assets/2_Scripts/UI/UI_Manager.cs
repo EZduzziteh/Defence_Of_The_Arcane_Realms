@@ -96,8 +96,14 @@ namespace Gameplay
             float sellPercentage = 0.5f; //set this to change what the sellvalue is, 0.5 means it sells for half of the original cost.
 
 
-
-            turretUpgradeMenu.UpdatePrices(currentTurret.GetUpgradeTurret().getTurretPrice(), Mathf.RoundToInt(currentTurret.getTurretPrice() * sellPercentage));
+            if (currentTurret.GetUpgradeTurret())
+            {
+                turretUpgradeMenu.UpdatePrices(currentTurret.GetUpgradeTurret().getTurretPrice(), Mathf.RoundToInt(currentTurret.getTurretPrice() * sellPercentage));
+            }
+            else
+            {
+                
+            }
         }
 
         public void TogglePauseMenu()

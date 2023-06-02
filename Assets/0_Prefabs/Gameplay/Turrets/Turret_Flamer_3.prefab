@@ -149,8 +149,8 @@ MonoBehaviour:
   baseTimeBetweenShots: 1
   fireRate: 8
   facesTarget: 1
-  range: 8
-  Price: 375
+  range: 7
+  Price: 275
   projectile: {fileID: 0}
   buildSound: {fileID: 8300000, guid: 4eb6da81f3a3d42d08ab80bd285741ff, type: 3}
   fireSoundEffect: {fileID: 8300000, guid: 80835f9440ccf8047b7dcfff65b6e3bd, type: 3}
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 7139169950995471769}
   - component: {fileID: 301515508443292985}
   - component: {fileID: 1663376165188441137}
-  m_Layer: 2
+  m_Layer: 7
   m_Name: RangeIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -504,7 +504,7 @@ GameObject:
   - component: {fileID: 8435191165798329914}
   - component: {fileID: 8435191165797035546}
   - component: {fileID: 8435191165796035802}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -596,13 +596,29 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7684677543225702287, guid: c4ed38c72957f2241ad144a1614956d9, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8764043878647920493, guid: c4ed38c72957f2241ad144a1614956d9, type: 3}
       propertyPath: m_Name
       value: FireEffect
       objectReference: {fileID: 0}
     - target: {fileID: 8764043878647920493, guid: c4ed38c72957f2241ad144a1614956d9, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764043878647920493, guid: c4ed38c72957f2241ad144a1614956d9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764373218812076563, guid: c4ed38c72957f2241ad144a1614956d9, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764473058345964675, guid: c4ed38c72957f2241ad144a1614956d9, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8766975900200080471, guid: c4ed38c72957f2241ad144a1614956d9, type: 3}
       propertyPath: m_LocalScale.x

@@ -49,11 +49,12 @@ namespace Gameplay
                     other.gameObject.GetComponent<Health>().TakeDamage(damage);
 
                     hasDealtDamage = true;
+                    Destroy(gameObject);
                 }
 
             }
 
-            Destroy(gameObject);
+          
         }
     }
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1378176992793145227}
   - component: {fileID: 3027682089869339368}
   - component: {fileID: 5975523606471925678}
-  m_Layer: 2
+  m_Layer: 7
   m_Name: RangeIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4773377089345833109}
   - component: {fileID: 3437380346503314348}
   - component: {fileID: 2505827981869679086}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Crystal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 1951497029823862301}
   - component: {fileID: 1707866282087888635}
   - component: {fileID: 2642023103027199466}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CFX_Magical_Source
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4952,7 +4952,7 @@ GameObject:
   - component: {fileID: 6989996391422948256}
   - component: {fileID: 5218056010457696584}
   - component: {fileID: 6445005495445206882}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Points
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9684,7 +9684,7 @@ GameObject:
   - component: {fileID: 7083980990375680987}
   - component: {fileID: 3334061483843370074}
   - component: {fileID: 8958192610988728601}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9766,7 +9766,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1858775488714541254}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Spawnpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9800,7 +9800,7 @@ GameObject:
   - component: {fileID: 3769551921403619335}
   - component: {fileID: 7544138037182120733}
   - component: {fileID: -861495469802536714}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Turret_Magic_Level2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9866,14 +9866,14 @@ MonoBehaviour:
   baseTimeBetweenShots: 1
   fireRate: 4
   facesTarget: 0
-  range: 7
-  Price: 250
+  range: 9
+  Price: 175
   projectile: {fileID: 0}
   buildSound: {fileID: 8300000, guid: e79607cad453e4bec8f63c2868689ae3, type: 3}
   fireSoundEffect: {fileID: 0}
-  damagePerTick: 1.5
-  slowTime: 2
-  slowAmount: 0.65
+  damagePerTick: 0.5
+  slowTime: 3
+  slowAmount: 0.5
 --- !u!82 &-861495469802536714
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9981,7 +9981,7 @@ GameObject:
   - component: {fileID: 5152745225915825320}
   - component: {fileID: 6136005346217043272}
   - component: {fileID: 7671415804528820024}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Snow Field
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14857,7 +14857,7 @@ GameObject:
   - component: {fileID: 8317010530205927336}
   - component: {fileID: 3761942805626467965}
   - component: {fileID: 5202490302464852539}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Waves
   m_TagString: Untagged
   m_Icon: {fileID: 0}

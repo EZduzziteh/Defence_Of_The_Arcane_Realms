@@ -1,6 +1,8 @@
 namespace Gameplay
 {
     using UnityEngine;
+    using System.Collections.Generic;
+    using System.Collections;
     public class Nexus : MonoBehaviour
     {
         [Header("VFX Settings")]
@@ -22,6 +24,8 @@ namespace Gameplay
 
         Health healthRef;
 
+        public bool nexusDestroyed = false;
+
         private void Awake()
         {
 
@@ -38,14 +42,15 @@ namespace Gameplay
         }
         public void TakeDamage(float damage)
         {
-
+            
 
             healthRef.TakeDamage(damage);
             aud.clip = takedamageSoundEffect;
             aud.Play();
-            GameObject temp = Instantiate(damageParticles.gameObject, damageParticles.transform.position, damageParticles.transform.rotation);
+            GameObject temp = Instantiate(damageParticles.gameObject, transform.position, transform.rotation);
          
-            temp.SetActive(true); 
+            temp.SetActive(true);
+            //temp.GetComponent<ParticleSystem>().Play();
             Destroy(temp.gameObject, 3.0f);
 
 
@@ -61,8 +66,23 @@ namespace Gameplay
 
             aud.clip = destroyedSoundEffect;
             aud.Play();
+            nexusDestroyed = true;
+            StartCoroutine(NexusDestroyedDelay(3.0f));
+            
+
+        }
+        IEnumerator NexusDestroyedDelay(float delay)
+        {
+
+            yield return new WaitForSeconds(delay);
+
 
             FindObjectOfType<UI_Manager>().HandleGameOver();
+
+
         }
+
     }
+
+
 }

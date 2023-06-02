@@ -7461,13 +7461,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2104839217475476429, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2371410853434853033, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
       propertyPath: m_Name
       value: Nexus
       objectReference: {fileID: 0}
+    - target: {fileID: 3572137848377679427, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4438288208287673439, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4563095674879821603, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4617161683857543038, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5051493403514459925, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5806968127873557158, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
       propertyPath: m_AnchorMax.x
@@ -7477,13 +7497,17 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5972565011078599173, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
+      propertyPath: clearBehavior
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6628722368916440825, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6628722368916440825, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.29
+      value: -1.74
       objectReference: {fileID: 0}
     - target: {fileID: 6628722368916440825, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7491,7 +7515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6628722368916440825, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.19
+      value: -15.26
       objectReference: {fileID: 0}
     - target: {fileID: 6628722368916440825, guid: eb04c47d2ec0d074480283d56f811af0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7657,7 +7681,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6172422621889605028, guid: 5dd3d9e9b43af974881fec525c0c8aff, type: 3}
       propertyPath: gold
-      value: 100
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6172422621889605028, guid: 5dd3d9e9b43af974881fec525c0c8aff, type: 3}
+      propertyPath: manaRegenRate
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
