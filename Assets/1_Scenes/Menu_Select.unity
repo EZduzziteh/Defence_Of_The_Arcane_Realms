@@ -1047,6 +1047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_UI_LevelPath_03 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1044934180613360, guid: 8a696e170d876c94fa461ff341586625, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4317619873524388, guid: 8a696e170d876c94fa461ff341586625, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2946,6 +2950,10 @@ PrefabInstance:
     - target: {fileID: 1668823654570214, guid: ba0b5c294583c6040a02e6680d289395, type: 3}
       propertyPath: m_Name
       value: Button_Level_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668823654570214, guid: ba0b5c294583c6040a02e6680d289395, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4300886380751644, guid: ba0b5c294583c6040a02e6680d289395, type: 3}
       propertyPath: m_RootOrder
@@ -5377,6 +5385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_UI_LevelPath_03 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1044934180613360, guid: 8a696e170d876c94fa461ff341586625, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4317619873524388, guid: 8a696e170d876c94fa461ff341586625, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5785,6 +5797,10 @@ PrefabInstance:
     - target: {fileID: 1044934180613360, guid: 8a696e170d876c94fa461ff341586625, type: 3}
       propertyPath: m_Name
       value: SM_UI_LevelPath_03 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044934180613360, guid: 8a696e170d876c94fa461ff341586625, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4317619873524388, guid: 8a696e170d876c94fa461ff341586625, type: 3}
       propertyPath: m_RootOrder
@@ -6946,6 +6962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_UI_LevelPath_03 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1044934180613360, guid: 8a696e170d876c94fa461ff341586625, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4317619873524388, guid: 8a696e170d876c94fa461ff341586625, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -7304,6 +7324,10 @@ PrefabInstance:
     - target: {fileID: 1668823654570214, guid: ba0b5c294583c6040a02e6680d289395, type: 3}
       propertyPath: m_Name
       value: Button_Level_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668823654570214, guid: ba0b5c294583c6040a02e6680d289395, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4300886380751644, guid: ba0b5c294583c6040a02e6680d289395, type: 3}
       propertyPath: m_RootOrder
@@ -13227,6 +13251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_UI_LevelPath_03 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1044934180613360, guid: 8a696e170d876c94fa461ff341586625, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4317619873524388, guid: 8a696e170d876c94fa461ff341586625, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -13617,6 +13645,10 @@ PrefabInstance:
     - target: {fileID: 1044934180613360, guid: 8a696e170d876c94fa461ff341586625, type: 3}
       propertyPath: m_Name
       value: SM_UI_LevelPath_03 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044934180613360, guid: 8a696e170d876c94fa461ff341586625, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4317619873524388, guid: 8a696e170d876c94fa461ff341586625, type: 3}
       propertyPath: m_RootOrder
@@ -15038,6 +15070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button_Level_06
       objectReference: {fileID: 0}
+    - target: {fileID: 1668823654570214, guid: ba0b5c294583c6040a02e6680d289395, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4300886380751644, guid: ba0b5c294583c6040a02e6680d289395, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -16277,6 +16313,10 @@ PrefabInstance:
     - target: {fileID: 1044934180613360, guid: 8a696e170d876c94fa461ff341586625, type: 3}
       propertyPath: m_Name
       value: SM_UI_LevelPath_03 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044934180613360, guid: 8a696e170d876c94fa461ff341586625, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4317619873524388, guid: 8a696e170d876c94fa461ff341586625, type: 3}
       propertyPath: m_RootOrder
@@ -18593,6 +18633,10 @@ PrefabInstance:
     - target: {fileID: 1044934180613360, guid: 8a696e170d876c94fa461ff341586625, type: 3}
       propertyPath: m_Name
       value: SM_UI_LevelPath_03 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044934180613360, guid: 8a696e170d876c94fa461ff341586625, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4317619873524388, guid: 8a696e170d876c94fa461ff341586625, type: 3}
       propertyPath: m_RootOrder

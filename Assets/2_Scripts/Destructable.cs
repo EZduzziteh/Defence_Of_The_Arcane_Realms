@@ -38,10 +38,10 @@ namespace Gameplay
         private void Start()
         {
             audMan = FindObjectOfType<AudioManager>();
+            healthRef = GetComponent<Health>();
+            aud = GetComponent<AudioSource>();
             audMan.managedSoundSources.Add(aud);
             aud.volume = audMan.soundEffectVolume;
-            aud = GetComponent<AudioSource>();
-            healthRef = GetComponent<Health>();
         }
 
         private void Update()

@@ -1,6 +1,7 @@
 
 namespace Gameplay
 {
+    using System;
     using UnityEngine;
 
     public class EnemySpawner : MonoBehaviour
@@ -38,6 +39,7 @@ namespace Gameplay
                 else
                 {
                     isSpawning = false;
+                    
                     Destroy(this.gameObject);
                 }
             }
@@ -45,9 +47,14 @@ namespace Gameplay
 
         public void SpawnEnemy()
         {
+            //#TODO hook this up to the object pool
             GameObject temp = GameObject.Instantiate(enemyToSpawn, spawnPoint.transform.position, spawnPoint.transform.rotation);
             temp.transform.localScale = enemyToSpawn.transform.localScale;
             amountSpawned++;
         }
+
+     
+
+      
     }
 }

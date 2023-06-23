@@ -17,13 +17,16 @@ namespace Gameplay
         {
             base.Update();
 
-            if (target.GetComponent<Destructable>().GetIsFalling())
+            if (target.GetComponent<Destructable>())
             {
-                isInAttackRange = false;
-                anim.SetBool("isWalking", true);
-                agent.isStopped = false;
-                attackTimer = 0.0f;
-                AcquireTarget();
+                if (target.GetComponent<Destructable>().GetIsFalling())
+                {
+                    isInAttackRange = false;
+                    anim.SetBool("isWalking", true);
+                    agent.isStopped = false;
+                    attackTimer = 0.0f;
+                    AcquireTarget();
+                }
             }
         }
 
@@ -106,7 +109,7 @@ namespace Gameplay
                 anim.SetBool("isWalking", true);
                 agent.isStopped = false;
                 attackTimer = 0.0f;
-
+                Debug.Log("no taget");
                 AcquireTarget();
             }
         }

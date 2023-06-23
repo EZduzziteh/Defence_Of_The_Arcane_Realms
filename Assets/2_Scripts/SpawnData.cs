@@ -24,12 +24,22 @@
 
         public bool spawning;
 
+        EnemyObjectPool pool;
+
+        private void Start()
+        {
+            pool = FindObjectOfType<EnemyObjectPool>();
+        }
+
 
         public void StartSpawn()
         {
             Transform temp = FindObjectOfType<SpawnLocation>().GetRandomSpawnLocation();
 
+
+            //#TODO pull item from item pool
             spawner = GameObject.Instantiate(spawnerPrefab, temp.position, temp.rotation);
+            
             spawner.enemyToSpawn = enemyType;
             spawner.timeBetweenSpawns = spawnInterval;
             spawner.amountToSpawn = amountToSpawn;
@@ -43,6 +53,8 @@
             {
                 if (spawner.isSpawning == false)
                 {
+
+                    //#TODO return the item to the item pool
                     Destroy(this.gameObject);
                     spawning = false;
                 }
@@ -61,6 +73,9 @@
         {
             return spawnInterval;
         }
+
+
+
 
     }
 }

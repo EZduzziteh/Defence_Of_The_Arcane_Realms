@@ -686,11 +686,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 409b2d34c7d74b444a31dfdaedf8aa16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBetweenAttacks: 6
+  timeBetweenAttacks: 5
   damage: 35
   deathSinkRate: 0.45
   timeBeforeDeathSink: 2
-  attackDoDamageDelay: 1.8
+  attackDoDamageDelay: 1
   floatingTextPrefab: {fileID: 2231724714907659384, guid: 70cd8d4fee5fe004d9a890708b698c31, type: 3}
   goldValue: 25
   baseSpeed: 1
